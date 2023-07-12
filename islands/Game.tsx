@@ -7,7 +7,7 @@ interface WasmGameProps {
 export default function WasmGame({ name }: WasmGameProps) {
   useEffect(() => {
     async function startGame() {
-      await import(`../wasm/${name}.js`);
+      await import(`/wasm/${name.split('-').join('_')}_app_wasm.js`);
     }
     startGame();
   }, []);
