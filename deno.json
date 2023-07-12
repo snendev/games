@@ -1,0 +1,24 @@
+{
+  "tasks": {
+    "prestart": "deno run -A prestart.ts",
+    "start": "deno task prestart && deno run -A --watch=static/,routes/ dev.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ],
+      "include": [
+        "ban-untagged-todo"
+      ],
+      "exclude": [
+        "no-unused-vars"
+      ]
+    }
+  }
+}
