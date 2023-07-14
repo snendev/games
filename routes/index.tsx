@@ -17,10 +17,10 @@ export default function Home() {
         This is where I post WIP game projects, please feel free to try them out!
       </p>
       <ul class="flex flex-grid items-center">
-        {GAMES.map(({name, description}) => (
+        {GAMES.map(({ name, description }) => (
           <li key={name} class="my-5">
             <div class="flex">
-              <a href="/name">
+              <a href={`/${name}`}>
                 <img
                   class="w-40"
                   alt={`${name} - ${description}`}
