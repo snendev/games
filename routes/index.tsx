@@ -1,9 +1,11 @@
+import Page from "../components/Page.tsx";
+
 interface Game {
   name: string
   description: string
 }
 
-const GAMES = [
+const GAMES: Game[] = [
   {
     name: 'cricket-pong',
     description: 'Pong in a circle, a pitching vs. batting duel',
@@ -12,7 +14,7 @@ const GAMES = [
 
 export default function Home() {
   return (
-    <div class="container p-4 mx-auto max-w-screen-md">
+    <Page>
       <p class="my-6">
         This is where I post WIP game projects, please feel free to try them out!
       </p>
@@ -44,6 +46,6 @@ export default function Home() {
           </li>
         ))}
       </ul>
-    </div>
+    </Page>
   );
 }

@@ -12,5 +12,9 @@ export default function WasmGame({ name }: WasmGameProps) {
     startGame();
   }, []);
 
-  return <canvas id="game-canvas" />;
+  return (
+    <div class="flex justify-center">
+      <canvas id="game-canvas" />
+    </div>
+  );
 }
