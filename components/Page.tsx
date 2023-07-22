@@ -13,7 +13,8 @@ export default function Page({ children, repoName }: PageProps) {
       <header class="w-full flex-none flex justify-center py-6 border-b border-black">
         <div class="container flex justify-between items-center">
           <h2 class="text-3xl">snen.dev</h2>
-          <nav>
+          <nav class="flex gap-12">
+            <a href="/" class="self-end text-2xl text-cyan-800">lab</a>
             <a href={`https://github.com/snendev/${repoName ?? "games"}`}>
               <GithubIcon size={36} />
             </a>
