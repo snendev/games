@@ -8,7 +8,7 @@ interface Game {
 const GAMES: Game[] = [
   {
     name: 'cricket-pong',
-    description: 'Pong in a circle, a pitching vs. batting duel',
+    description: 'Pong in a circle, a bowling vs. batting duel',
   },
   {
     name: 'wildchess',
