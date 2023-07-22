@@ -5,12 +5,14 @@
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/cricket-pong.tsx";
 import * as $1 from "./routes/index.tsx";
+import * as $2 from "./routes/wildchess.tsx";
 import * as $$0 from "./islands/Game.tsx";
 
 const manifest = {
   routes: {
     "./routes/cricket-pong.tsx": $0,
     "./routes/index.tsx": $1,
+    "./routes/wildchess.tsx": $2,
   },
   islands: {
     "./islands/Game.tsx": $$0,
