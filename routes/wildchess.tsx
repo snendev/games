@@ -5,7 +5,7 @@ import Game from "../islands/Game.tsx";
 export default function Wildchess() {
   return (
     <Page repoName="wildchess">
-      <Game name="wildchess" />
+      <Game name="chess" />
       <div class="my-6 max-w-xl mx-auto">
         <h2 class="text-lg font-bold">How To Play</h2>
         <p class="mb-2">

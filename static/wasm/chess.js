@@ -1774,55 +1774,55 @@ const imports = {
             const ret = wasm.memory;
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8805: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2180, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9987: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2573, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8807: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2179, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9989: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2572, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8809: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2179, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9991: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2572, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8811: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2179, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9993: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2572, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8813: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2179, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9995: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2572, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8815: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2179, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9997: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2572, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper8817: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2179, __wbg_adapter_34);
+        __wbindgen_closure_wrapper9999: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2572, __wbg_adapter_34);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper10307: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 2595, __wbg_adapter_49);
+        __wbindgen_closure_wrapper11489: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 2988, __wbg_adapter_49);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper45077: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 19126, __wbg_adapter_52);
+        __wbindgen_closure_wrapper46291: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 19542, __wbg_adapter_52);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper87269: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 37497, __wbg_adapter_55);
+        __wbindgen_closure_wrapper88442: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 37876, __wbg_adapter_55);
             return addHeapObject(ret);
         },
-        __wbindgen_closure_wrapper89021: function(arg0, arg1, arg2) {
-            const ret = makeMutClosure(arg0, arg1, 37814, __wbg_adapter_58);
+        __wbindgen_closure_wrapper90191: function(arg0, arg1, arg2) {
+            const ret = makeMutClosure(arg0, arg1, 38193, __wbg_adapter_58);
             return addHeapObject(ret);
         },
     },
 
 };
 
-const wasm_url = new URL('wildchess_bg.wasm', import.meta.url);
+const wasm_url = new URL('chess_bg.wasm', import.meta.url);
 let wasmCode = '';
 switch (wasm_url.protocol) {
     case 'file:':
