@@ -23,8 +23,12 @@ export default function Cheese() {
                 <h2 class="text-lg font-bold">Notes</h2>
                 <p class="mb-1">
                     This version is slightly downgraded from the downloadable version, which you can find
-                    on the
-                    <a href="https://snendev.itch.io/cheese-rolling-forever">itch.io page</a>.
+                    on the{' '}
+                    <a href="https://snendev.itch.io/cheese-rolling-forever" class="text-blue-600 cursor-pointer">itch.io page</a> or on{' '}
+                    <a href="https://github.com/snendev/cheese/releases" class="text-blue-600 cursor-pointer">GitHub</a>.
+                </p>
+                <p class="mb-1">
+                    Please feel free to report bugs as <a href="https://github.com/snendev/cheese/issues" class="text-blue-600 cursor-pointer">GitHub issues</a>.
                 </p>
             </div>
             <div class="my-6 max-w-xl mx-auto">
@@ -36,7 +40,7 @@ export default function Cheese() {
                     Cheese wheel asset made by Collum Freedman
                 </p>
                 <p class="mb-1">
-                    For more sources, check https://github.com/snendev/cheese/blob/main/game/assets/sources.txt
+                    For more, check the <a href="https://github.com/snendev/cheese/blob/main/game/assets/sources.txt" class="text-blue-600 cursor-pointer">assets directory</a>.
                 </p>
             </div>
         </Page>
