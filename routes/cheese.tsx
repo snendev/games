@@ -24,11 +24,20 @@ export default function Cheese() {
                 <p class="mb-1">
                     This version is slightly downgraded from the downloadable version, which you can find
                     on the{' '}
-                    <a href="https://snendev.itch.io/cheese-rolling-forever" class="text-blue-600 cursor-pointer">itch.io page</a> or on{' '}
-                    <a href="https://github.com/snendev/cheese/releases" class="text-blue-600 cursor-pointer">GitHub</a>.
+                    <a href="https://snendev.itch.io/cheese-rolling-forever" class="text-blue-600 cursor-pointer">
+                        itch.io page
+                    </a>{' '}
+                    or on{' '}
+                    <a href="https://github.com/snendev/cheese-rolling-forever/releases" class="text-blue-600 cursor-pointer">
+                        GitHub
+                    </a>
+                    .
                 </p>
                 <p class="mb-1">
-                    Please feel free to report bugs as <a href="https://github.com/snendev/cheese/issues" class="text-blue-600 cursor-pointer">GitHub issues</a>.
+                    Please feel free to report bugs as{' '}
+                    <a href="https://github.com/snendev/cheese-rolling-forever/issues" class="text-blue-600 cursor-pointer">
+                        GitHub issues
+                    </a>.
                 </p>
             </div>
             <div class="my-6 max-w-xl mx-auto">
